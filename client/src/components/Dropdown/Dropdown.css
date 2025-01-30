@@ -1,0 +1,55 @@
+.drop-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.drop-btn:hover {
+  color: #e5cb6b;
+  cursor: pointer;
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.extItem1 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.763);
+  width: 150px;
+  border: rgb(90, 82, 82) 2px solid;
+  border-radius: 10px;
+  z-index: 1000;
+  margin-top: 10px;
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.link-header-events {
+  margin-top: 10px;
+}
+
+.link-header-events:hover {
+  color: #e5cb6b;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 145px;
+}
+
+.listItem {
+  color: white;
+  padding: 15px;
+  padding-left: 20px;
+  width: 75%;
+}
