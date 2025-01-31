@@ -16,7 +16,7 @@ export default function CardsEvent({ index, data }: CardsEventProps) {
           {event.media_url ? (
             <img src={event.media_url} alt="Affiche de l'événement" />
           ) : (
-            <img src="/koala.jpg" alt="Koala" />
+            <img src="/EVENEMENT_NON_DISPONIBLE.jpg" alt=" " />
           )}
         </Link>
         <img src={event?.media_url} alt="Affiche Evénement" />

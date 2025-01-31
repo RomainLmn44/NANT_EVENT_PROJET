@@ -60,7 +60,11 @@ function MapCard({ data, onSelect }: MapCardProps) {
               alt="Affiche de l'évènement"
             />
           ) : (
-            <img className="event-img" src="/koala.jpg" alt="Koala" />
+            <img
+              className="event-img"
+              src="/EVENEMENT_NON_DISPONIBLE.jpg"
+              alt=" "
+            />
           )}
         </Link>
       </figure>

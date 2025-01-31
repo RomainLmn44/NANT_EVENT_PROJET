@@ -1,37 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Racing+Sans+One&display=swap");
 
 .random {
-  height: 100vh;
-  background-color: #e6b504;
+  background-image: url("/background_random.jpg");
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 36px;
+  padding: 35px;
 }
 .title {
   font-family: "Racing Sans One", sans-serif;
   color: white;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 70px;
 }
 .event_title {
   font-family: "Montserrat", sans-serif;
   color: white;
-  margin-bottom: 16px;
+  font-size: 40px;
+  width: 550px;
+  text-align: center;
 }
 
 .event-poster {
-  width: auto;
-  height: auto;
-  max-height: 70%;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 15px;
+  width: 550px;
   border-radius: 16px;
-}
-
-.random-link {
-  height: 40vh;
 }
 
 .cta-random {
@@ -55,7 +49,9 @@
 .event_info {
   color: black;
   font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   margin-bottom: 16px;
+  font-size: 24px;
 }
 
 .event_url {
@@ -64,22 +60,39 @@
   font-family: "Monserrat", sans-serif;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 780px) {
   .random {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 60vh;
+    gap: 24px;
   }
   .title {
+    font-size: 70px;
+    width: 550px;
     text-align: center;
-    font-size: 2.5rem;
+    line-height: 70px;
+  }
+  .event-poster {
+    width: 75vw;
   }
   .event_title {
+    font-size: 35px;
+    width: 450px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .title {
+    font-size: 45px;
+    width: 300px;
+    line-height: 40px;
+  }
+  .event_title {
+    font-size: 32px;
+    width: 280px;
     text-align: center;
   }
-  .poster {
-    width: auto;
-    max-width: 80%;
+  .event_info {
+    margin-bottom: 16px;
+    font-size: 24px;
+    width: 250px;
+    text-align: center;
   }
 }

@@ -1,23 +1,23 @@
 export const DataCarousel = [
   {
     imgSrc:
-      "https://www.lacoupole.org/wp-content/uploads/2022/09/tutu-01-web.jpg",
-    title: "Tutu à Nantes ",
-    date: "Vendredi 6 décembre 2024 - 20h",
-    place: "Cité des Congrès - Nantes",
+      "https://olvallee.twic.pics/wp-content/uploads/2022/06/E7I7228-scaled.jpg",
+    title: "INDOCHINE en concert",
+    date: "Mardi 15 Avril 2025 - 20h",
+    place: "Zénith de Nantes",
   },
   {
     imgSrc:
-      "https://uploads.lebonbon.fr/source/2023/december/2051800/ooooook_1_2000.jpg",
-    title: "Candlelight- Hommage à Ludovico Einaudi ",
-    date: "Lundi 6 janvier 2024 - 19h30",
-    place: "Théâtre des 100 noms - Nantes",
+      "https://cloudfront-eu-central-1.images.arcpublishing.com/leparisien/DLI6F3FWDRH3HNIQSRMEYSLQ3Q.jpg",
+    title: "Les 10 Commandements - Comédie Musicale",
+    date: "Samedi 17 mai - 20h30",
+    place: "Cité des congrés de Nantes",
   },
   {
     imgSrc:
-      "https://lecanalauditif.ca/wp-content/uploads/2022/07/FEQ2022-CharlotteCardin-36-1426x745.jpg",
-    title: "Charlotte Cardin ",
-    date: "Mardi 03 décembre 2024 - 20h",
-    place: "ZENITH - Nantes",
+      "https://i1.wp.com/www.scienceofnoise.net/wp-content/uploads/2019/03/20158039_10154608228532536_3146481853962123278_o.jpg",
+    title: "HELLFEST 2025",
+    date: "19 - 22 juin 2025",
+    place: "Clisson (44)",
   },
 ];

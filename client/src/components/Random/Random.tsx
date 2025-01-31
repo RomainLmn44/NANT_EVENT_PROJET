@@ -56,15 +56,18 @@ function Random() {
             />
           ) : (
             <img
-              src="/koala.jpg"
-              alt="no images available for this event"
+              src="/EVENEMENT_NON_DISPONIBLE.jpg"
+              alt=" "
               className="event-poster"
             />
           )}
         </Link>
         <h2 className="event_title">{currentEvent.nom}</h2>
-        <p className="event_info">{currentEvent.emetteur}</p>
-        <p className="event_info">{currentEvent.date}</p>
+        <p className="event_info">
+          {currentEvent.emetteur}
+          {" - "}
+          {currentEvent.date}
+        </p>
         <button type="button" onClick={handleRefresh} className="cta-random">
           Relancer
         </button>

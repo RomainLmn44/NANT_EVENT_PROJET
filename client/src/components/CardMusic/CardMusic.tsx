@@ -22,7 +22,11 @@ function CardMusic({ data, id }: CardEventProps) {
                 alt="Affiche de l'événement"
               />
             ) : (
-              <img className="theme-affiche" src="/koala.jpg" alt="Koala" />
+              <img
+                className="theme-affiche"
+                src="/EVENEMENT_NON_DISPONIBLE.jpg"
+                alt=" "
+              />
             )}
           </Link>
         </figure>

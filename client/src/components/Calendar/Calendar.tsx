@@ -48,8 +48,8 @@ function MyCalendar() {
                       />
                     ) : (
                       <img
-                        src="/koala.jpg"
-                        alt="Koala"
+                        src="/EVENEMENT_NON_DISPONIBLE.jpg"
+                        alt=" "
                         className="img-event-date"
                       />
                     )}
