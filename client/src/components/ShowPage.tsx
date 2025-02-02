@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { EventI } from "../types/Events";
 import type { EventApi } from "../types/Events";
 import CardMusic from "./CardMusic/CardMusic";
+import GraphicSeperator from "./GraphicSeparator/GraphicSeparator";
 
 function ShowPage() {
   const [event, setEvent] = useState<EventI[]>([]);
@@ -19,6 +20,7 @@ function ShowPage() {
     <>
       <section className="theme-body">
         <h1 className="theme-title"> Spectacles </h1>
+        <GraphicSeperator />
 
         {event?.map((el) => {
           return <CardMusic key={el.id_agenda_in} data={el} id={el.id_manif} />;

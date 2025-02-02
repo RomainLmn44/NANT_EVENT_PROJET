@@ -11,6 +11,10 @@ const DropDown = () => {
     setIsExpanded(!isExpanded);
   };
 
+  const handleLinkClick = () => {
+    setIsExpanded(false);
+  };
+
   return (
     <div className="dropdown-container">
       <button type="button" onClick={toggleDropdown} className="drop-btn">
@@ -20,19 +24,35 @@ const DropDown = () => {
       </button>
       {isExpanded && (
         <div className="extItem1">
-          <Link className="link-header-events" to="/Music">
+          <Link
+            className="link-header-events"
+            to="/Music"
+            onClick={handleLinkClick}
+          >
             {" "}
             Evénements Musicaux
           </Link>
-          <Link className="link-header-events" to="/Sport">
+          <Link
+            className="link-header-events"
+            to="/Sport"
+            onClick={handleLinkClick}
+          >
             {" "}
             Evénements Sportifs
           </Link>
-          <Link className="link-header-events" to="/Art">
+          <Link
+            className="link-header-events"
+            to="/Art"
+            onClick={handleLinkClick}
+          >
             {" "}
             Evénements artistiques
           </Link>
-          <Link className="link-header-events" to="/Show">
+          <Link
+            className="link-header-events"
+            to="/Show"
+            onClick={handleLinkClick}
+          >
             Spectacles
           </Link>
         </div>

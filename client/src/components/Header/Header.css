@@ -1,10 +1,11 @@
-nav {
+.nav-header {
   background-color: black;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   font-family: "Montserrat", serif;
   font-weight: 500;
   font-size: 17px;
   position: relative;
+  z-index: 3;
 }
 
 .img-container {
@@ -15,6 +16,12 @@ nav {
 .logo {
   width: 400px;
   padding-top: 20px;
+}
+
+.header-display {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
 }
 
 .main-nav {
@@ -37,13 +44,13 @@ nav {
   display: flex;
 }
 
-nav a {
+.header-link {
   height: 100%;
   padding: 0 20px;
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: white;
+  color: rgb(255, 255, 255);
   transition: color 0.3s ease;
 }
 
@@ -110,6 +117,10 @@ button.drop-btn:hover {
 
 ul {
   list-style: none;
+}
+
+.profil-picture {
+  width: 40px;
 }
 
 @media (max-width: 800px) {

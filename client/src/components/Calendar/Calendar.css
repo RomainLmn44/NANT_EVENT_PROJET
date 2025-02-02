@@ -81,15 +81,15 @@
 }
 
 .title-agenda {
-  font-family: "Rubik Mono One", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 4rem;
+  font-family: "Racing Sans One", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size: 70px;
+  margin-bottom: 15px;
 }
 
 .divider-agenda {
-  width: 90%;
+  width: 75%;
   border: 2px solid #000;
   margin: 10px auto;
 }

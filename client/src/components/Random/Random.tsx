@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./Random.css";
 import { Link } from "react-router-dom";
 import type { EventI } from "../../types/Events";
+import GraphicSeperatorOrange from "../GraphicSeparatorOrange/GraphicSeparatorOrange";
 
 function Random() {
   const [events, setEvents] = useState<[] | EventI[]>([]);
@@ -47,6 +48,7 @@ function Random() {
     <>
       <div className="random">
         <h1 className="title">Pas d'idée de sortie ? </h1>
+        <GraphicSeperatorOrange />
         <Link className="random-link" to={`/event/${currentEvent.id_manif}`}>
           {currentEvent.media_url ? (
             <img

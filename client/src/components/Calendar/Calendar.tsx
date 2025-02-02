@@ -4,6 +4,7 @@ import "react-calendar/dist/Calendar.css";
 import "./Calendar.css";
 import { Link } from "react-router-dom";
 import type { EventI } from "../../types/Events";
+import GraphicSeperator from "../GraphicSeparator/GraphicSeparator";
 
 type ValuePiece = Date | null;
 type Value = ValuePiece | [ValuePiece, ValuePiece];
@@ -31,7 +32,7 @@ function MyCalendar() {
   return (
     <div className="agenda-page">
       <h1 className="title-agenda">Agenda</h1>
-      <hr className="divider-agenda" />
+      <GraphicSeperator />
       <Calendar onChange={setValue} value={value} />
       <div className="event-calendar">
         {data !== null &&

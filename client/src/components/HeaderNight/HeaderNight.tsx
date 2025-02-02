@@ -34,7 +34,7 @@ const HeaderNight = () => {
   );
 
   return (
-    <nav>
+    <nav className="headernight-nav">
       <div className="container">
         <div className="img-container">
           <Link to="/Home">

@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-nav {
+.headernight-nav {
   background-color: black;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   font-family: "Montserrat", serif;
@@ -46,13 +46,13 @@ nav {
   display: flex;
 }
 
-nav a {
+.headernight-nav a {
   height: 100%;
   padding: 0 20px;
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: white;
+  color: rgb(255, 255, 255);
   transition: color 0.3s ease;
 }
 

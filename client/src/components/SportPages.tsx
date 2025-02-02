@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { EventI } from "../types/Events";
 import type { EventApi } from "../types/Events";
 import CardMusic from "./CardMusic/CardMusic";
+import GraphicSeperator from "./GraphicSeparator/GraphicSeparator";
 
 function SportPage() {
   const [event, setEvent] = useState<EventI[]>([]);
@@ -19,7 +20,7 @@ function SportPage() {
     <>
       <section className="theme-body">
         <h1 className="theme-title"> Evènement Sportifs </h1>
-
+        <GraphicSeperator />
         {event?.map((event) => {
           return (
             <CardMusic

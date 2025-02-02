@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import type { EventApi, EventI } from "../../types/Events";
 import CardMusic from "../CardMusic/CardMusic";
+import "../Page-event.css";
+import GraphicSeperator from "../GraphicSeparator/GraphicSeparator";
 
 function MusicPage() {
   const [event, setEvent] = useState<EventI[]>([]);
@@ -18,6 +20,7 @@ function MusicPage() {
     <>
       <section className="theme-body">
         <h1 className="theme-title"> Evénement musicaux </h1>
+        <GraphicSeperator />
 
         {event?.map((event) => {
           return (

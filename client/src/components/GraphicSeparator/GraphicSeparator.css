@@ -1,0 +1,17 @@
+.separator {
+  display: flex;
+  width: 80%;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.page_event {
+  border: 1.5px solid #000000;
+  height: 0.5px;
+}
+
+.separator img {
+  width: 20px;
+  rotate: 90deg;
+}
