@@ -63,6 +63,8 @@ button.drop-btn:hover {
 
 .heart {
   font-size: 30px;
+  color: white;
+  text-decoration: none;
 }
 
 .heart:hover {

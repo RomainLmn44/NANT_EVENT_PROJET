@@ -1,7 +1,6 @@
 export const DataCarousel = [
   {
-    imgSrc:
-      "https://olvallee.twic.pics/wp-content/uploads/2022/06/E7I7228-scaled.jpg",
+    imgSrc: "/indochine.jpg",
     title: "INDOCHINE en concert",
     date: "Mardi 15 Avril 2025 - 20h",
     place: "Zénith de Nantes",

@@ -29,22 +29,20 @@
   border-radius: 10px;
   z-index: 1000;
   margin-top: 10px;
-  padding: 5px 0px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
 .link-header-events {
-  margin-top: 10px;
+  color: white;
+  text-decoration: none;
 }
 
 .link-header-events:hover {
   color: #e5cb6b;
-  background-color: black;
   cursor: pointer;
-  border-radius: 8px;
-  width: 145px;
 }
 
 .listItem {
