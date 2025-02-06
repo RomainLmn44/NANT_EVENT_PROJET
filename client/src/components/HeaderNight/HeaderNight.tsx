@@ -12,19 +12,19 @@ const HeaderNight = () => {
 
   const MenuItems = () => (
     <>
-      <Link className="link-style" to="/Agenda">
+      <Link className="link-style-night" to="/Agenda">
         AGENDA
       </Link>
-      <Link className="link-style" to={""}>
+      <Link className="link-style-night" to={""}>
         <DropDownNight />
       </Link>
-      <Link className="link-style" to="/Aleatoire">
+      <Link className="link-style-night" to="/Aleatoire">
         ALEATOIRE
       </Link>
-      <Link className="link-style" to="/MapPage">
+      <Link className="link-style-night" to="/MapPage">
         MAP
       </Link>
-      <Link className="link-style" to={""}>
+      <Link className="link-style-night" to={""}>
         NAONIGHT
       </Link>
       <Link className="heart-night" to="/Userpage">
@@ -73,8 +73,8 @@ const HeaderNight = () => {
           </ul>
         )}
 
-        <ul className="main-nav">
-          <li className="menu-button">
+        <ul className="main-nav-night">
+          <li className="menu-button-night">
             <button
               type="button"
               onClick={toggle}

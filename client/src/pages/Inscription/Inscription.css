@@ -1,18 +1,18 @@
-.page-connexion {
+.page-inscription {
   display: flex;
   flex-direction: column;
-  background-color: #e7e7e7;
+  background-color: #dededeac;
   align-items: center;
   padding: 32px;
 }
 
-.page-connexion h1 {
+.page-inscription h1 {
   font-family: "Racing Sans One", sans-serif;
   color: rgb(0, 0, 0);
   font-weight: 400;
   font-size: 70px;
 }
-.page-connexion h2 {
+.page-inscription h2 {
   font-family: "Montserrat", serif;
   color: rgb(0, 0, 0);
   font-weight: 600;
@@ -21,9 +21,8 @@
   text-align: center;
 }
 
-.page-connexion form {
-  display: flex;
-  flex-direction: column;
+.page-inscription form {
+  display: grid;
   width: 50vw;
   min-width: 270px;
   justify-items: center;
@@ -37,11 +36,11 @@
   margin: 48px 0;
 }
 
-.page-connexion form label {
+.page-inscription form label {
   margin-bottom: 10px;
 }
 
-.page-connexion form input {
+.page-inscription form input {
   height: 30px;
   outline: none;
   border: none;
@@ -57,7 +56,7 @@
   min-width: 250px;
 }
 
-.page-connexion form button {
+.page-inscription form button {
   width: 180px;
   height: 40px;
   outline: none;
@@ -69,24 +68,24 @@
   font-size: 20px;
   margin-top: 24px;
 }
-.page-connexion form button:hover {
+.page-inscription form button:hover {
   cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
-  .page-connexion form {
+  .page-inscription form {
     display: flex;
     flex-direction: column;
   }
-  .page-connexion h2 {
+  .page-inscription h2 {
     font-size: 35px;
   }
 }
 @media screen and (max-width: 500px) {
-  .page-connexion h1 {
+  .page-inscription h1 {
     font-size: 45px;
   }
-  .page-connexion h2 {
+  .page-inscription h2 {
     font-size: 25px;
   }
 }

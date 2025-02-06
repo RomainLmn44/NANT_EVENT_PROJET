@@ -15,18 +15,54 @@ function BurgerMenu() {
       <Squash size={30} toggled={open} toggle={setOpen} />
       {open && (
         <ul>
-          <Link to="/" onClick={handleLinkClick}>
-            Connexion
+          <Link
+            className="responsive"
+            to="/Connexion"
+            onClick={handleLinkClick}
+          >
+            AGENDA
+          </Link>
+          <Link
+            className="responsive"
+            to="/Connexion"
+            onClick={handleLinkClick}
+          >
+            ALEATOIRE
+          </Link>
+          <Link
+            className="responsive"
+            to="/Connexion"
+            onClick={handleLinkClick}
+          >
+            MAP
+          </Link>
+          <Link
+            className="responsive"
+            to="/Connexion"
+            onClick={handleLinkClick}
+          >
+            NAONIGHT
+          </Link>
+          <Link
+            className="responsive"
+            to="/Connexion"
+            onClick={handleLinkClick}
+          >
+            FAVORIS
           </Link>
 
-          <Link to="/" onClick={handleLinkClick}>
-            Inscription
+          <Link to="/Connexion" onClick={handleLinkClick}>
+            CONNEXION
+          </Link>
+
+          <Link to="/Inscription" onClick={handleLinkClick}>
+            INSCRIPTION
           </Link>
           <Link to="/" onClick={handleLinkClick}>
-            Paramètres
+            PARAMETRES
           </Link>
           <Link to="/" onClick={handleLinkClick}>
-            Déconnexion
+            DECONNEXION
           </Link>
         </ul>
       )}

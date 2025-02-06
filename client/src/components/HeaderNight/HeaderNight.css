@@ -23,10 +23,10 @@
 
 .logo {
   width: 400px;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
-.main-nav {
+.main-nav-night {
   width: 100%;
   list-style: none;
   display: flex;
@@ -56,7 +56,7 @@
   transition: color 0.3s ease;
 }
 
-.link-style:hover {
+.link-style-night:hover {
   color: #ff17a6;
 }
 
@@ -89,7 +89,7 @@
   width: 100%;
 }
 
-.menu-button {
+.menu-button-night {
   display: none;
 }
 
@@ -137,7 +137,7 @@ ul {
   }
 
   .logo {
-    width: 300px;
+    /* width: 300px; */
   }
   .btn {
     display: flex;
@@ -157,6 +157,6 @@ ul {
   }
 
   .logo {
-    width: 250px;
+    /* width: 250px; */
   }
 }

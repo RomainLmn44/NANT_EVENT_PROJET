@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import type { EventApi, EventI } from "../../types/Events";
 import CardMusic from "../CardMusic/CardMusic";
-import "../Page-event.css";
 import GraphicSeperator from "../GraphicSeparator/GraphicSeparator";
 
 function MusicPage() {

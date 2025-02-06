@@ -1,12 +1,12 @@
 import "./App.css";
 import { Outlet } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
+import Head from "./components/Head/Head";
 
 function App() {
   return (
     <>
-      <Header />
+      <Head />
       <main className="body-class">
         <Outlet />
       </main>

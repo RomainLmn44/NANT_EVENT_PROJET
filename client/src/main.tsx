@@ -17,9 +17,11 @@ import Music from "./pages/MusicPage/Music";
 import Show from "./pages/Show";
 import Sport from "./pages/Sport";
 
-import UserPage from "./pages/UserPage";
-
+import Head from "./components/Head/Head";
+import Connexion from "./pages/Connexion/Connexion";
+import Inscription from "./pages/Inscription/Inscription";
 import NaoNight from "./pages/NaoNight/NaoNight";
+import UserPage from "./pages/UserPage";
 
 const router = createBrowserRouter([
   {
@@ -59,6 +61,13 @@ const router = createBrowserRouter([
         path: "Art",
         element: <Art />,
       },
+      {
+        path: "Head",
+        element: <Head />,
+      },
+      { path: "Inscription", element: <Inscription /> },
+      { path: "Connexion", element: <Connexion /> },
+
       {
         path: "Event/:id",
         element: <Evenements />,

@@ -1,6 +1,6 @@
 .burger-menu {
   color: white;
-  z-index: 0;
+  z-index: 3;
 }
 
 .burger-menu ul {
@@ -10,6 +10,7 @@
   height: 100vh;
   position: absolute;
   background-color: #000000ab;
+  backdrop-filter: blur(10px);
   padding: 20px;
   font-size: 24px;
   display: flex;
@@ -26,4 +27,14 @@
 
 .burger-menu a:hover {
   color: #e6b504;
+}
+
+.responsive {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .responsive {
+    display: block;
+  }
 }

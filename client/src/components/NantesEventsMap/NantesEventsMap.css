@@ -4,6 +4,7 @@
   margin: 0 auto;
   padding: 0 10px;
   border-radius: 10px;
+  z-index: 2;
 }
 
 .map-title {

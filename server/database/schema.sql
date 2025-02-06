@@ -1,11 +1,26 @@
-CREATE TABLE video_game (
-  id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-  name VARCHAR(50),
-  image VARCHAR(255)
+CREATE TABLE user (
+  id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  username VARCHAR(100) NOT NULL,
+  firstname VARCHAR(100) NOT NULL,
+  lastname VARCHAR(100) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  
+  
+  password VARCHAR(255) NOT NULL,
+  
+  is_admin BOOLEAN NOT NULL DEFAULT FALSE
 );
 
-INSERT INTO video_game (name, image)
+
+INSERT INTO user(username, firstname, lastname, email, password, is_admin)
 VALUES
-  ("Diablo III", 'https://upload.wikimedia.org/wikipedia/en/8/80/Diablo_III_cover.png'),
-  ("Binding of Isaac", 'https://upload.wikimedia.org/wikipedia/en/f/fa/Binding_of_isaac_header.jpg'),
-  ("Hollow Knight", "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Hollow_Knight_first_cover_art.webp/274px-Hollow_Knight_first_cover_art.webp.png")
+('jdoe', 'John', 'Doe', 'jdoe@example.com', 'pass1234', FALSE),
+('asmith', 'Alice', 'Smith', 'asmith@example.com', 'securepass', FALSE),
+('bmartin', 'Bob', 'Martin', 'bmartin@example.com', 'bobpass99', FALSE),
+('cwilson', 'Charlie', 'Wilson', 'cwilson@example.com', 'charliepwd', TRUE),
+('djohnson', 'David', 'Johnson', 'djohnson@example.com', 'david2024', FALSE),
+('eroberts', 'Emma', 'Roberts', 'eroberts@example.com', 'emma_pass', FALSE),
+('fmiller', 'Frank', 'Miller', 'fmiller@example.com', 'frankie88', TRUE),
+('ganderson', 'Grace', 'Anderson', 'ganderson@example.com', 'gracepass', FALSE),
+('hthomas', 'Henry', 'Thomas', 'hthomas@example.com', 'henrypass', FALSE),
+('iwalker', 'Isla', 'Walker', 'iwalker@example.com', 'isla1234', FALSE);
